@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="userPreferencesFileName">com.avocadosoft.wakemeup_preferences</string>
+    
+    <string name="app_name">Urgent Caller</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="userPreferencesActiveKeyName">userPreferencesActive</string>
+    <string name="userPreferencesActiveTitle">On/Off</string>
+    <string name="userPreferencesActiveDescription">When checked, Urgent Caller is running.</string>
+    
+    
+    <string name="userPreferencesCallCountThresholdKeyName">userPreferencesCallCountThreshold</string>
+    <string name="userPreferencesCallCountThresholdTitle">Missed Call Threshold</string>
+    <string name="userPreferencesCallCountThresholdDescription">How many missed calls should be allowed before the volume is raised?</string>
+    <string name="userPreferencesCallCountThresholdDefaultValue">3</string>
+    
+    
+    <string name="userPreferencesBeginTimeKeyName">userPreferencesBeginTime</string>
+    <string name="userPreferencesBeginTimeTitle">Start Time</string>
+    <string name="userPreferencesBeginTimeDescription">Volume will only be raised during these hours.</string>
+    <string name="userPreferencesBeginTimeDefaultValue">23:00</string>
+    
+    <string name="userPreferencesEndTimeKeyName">userPreferencesEndTime</string>
+    <string name="userPreferencesEndTimeTitle">End Time</string>
+    <string name="userPreferencesEndTimeDescription">Volume will only be raised during these hours.</string>
+    <string name="userPreferencesEndTimeDefaultValue">7:00</string>
+    
+    <string name="userPreferencesAlwaysOnKeyName">userPreferencesAlwaysOn</string>
+    <string name="userPreferencesAlwaysOnTitle">Always On</string>
+    <string name="userPreferencesAlwaysOnDescription">When checked, the times below are ignored and Urgent Caller will run 24/7.</string>
+    <string name="userPreferencesAlwaysOnDefaultValue">false</string>
+    
+    <string name="notificationTitle">Wake Me Up</string>
+    <string name="notificationText">Currently monitoring for missed calls</string>
+    
+    <string name="localservicestarted">localservicestarted</string>
+    
+    <string name="serviceStartedFromUI">serviceStartedFromUI</string>
+    
+    <string name="userPreferencesMissedCallCount">userPreferencesMissedCallCount</string>
+    <string name="lastCallDateTime">lastCallDateTime</string>
+    <string name="callCount">callCount</string>
+    
+    <string name="uiResetCountButtonText">Reset Count</string>
+    <string name="uiCallThreshold">Call Threshold</string>
+    <string name="lblRaiseVolume">Raise volume after</string>
+    <string name="lblCalls">missed calls.</string>
+    <string name="lblTimeSpan">During these hours:</string>
+    <string name="activeLabel">Active</string>
+</resources>

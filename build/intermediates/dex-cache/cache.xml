@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Samsung\Google Drive\Development\UrgentCaller Updated\WakeMeUp2\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsV2-3d756425619cde6e2d75869c4efe6c454e5277ef.jar"
+        jar="C:\Users\Samsung\Google Drive\Development\UrgentCaller Updated\WakeMeUp2\app\libs\libGoogleAnalyticsV2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4d946a10c0d73adf8596ab3547fb78f00346673a"/>
+    <item
+        dex="C:\Users\Samsung\Google Drive\Development\UrgentCaller Updated\WakeMeUp2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-03d2a791fc6935636cde8425c513df13c348b3d3.jar"
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+
+</pre-dex-items>

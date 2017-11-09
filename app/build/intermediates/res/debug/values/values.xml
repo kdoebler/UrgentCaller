@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Samsung/Google%20Drive/Development/UrgentCaller%20Updated/WakeMeUp2/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="newidth">75px</dimen>
+    <dimen name="newnewiwdth">100px</dimen>
+    <dimen name="textboxwidth">20px</dimen>
+    <dimen name="textboxwidth2">50px</dimen>
+    <dimen name="textboxwidth3">150px</dimen>
+    <!-- From: file:/C:/Users/Samsung/Google%20Drive/Development/UrgentCaller%20Updated/WakeMeUp2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="activeLabel">Active</string>
+    <string name="app_name">Urgent Caller</string>
+    <string name="callCount">callCount</string>
+    <string name="lastCallDateTime">lastCallDateTime</string>
+    <string name="lblCalls">missed calls.</string>
+    <string name="lblRaiseVolume">Raise volume after</string>
+    <string name="lblTimeSpan">During these hours:</string>
+    <string name="localservicestarted">localservicestarted</string>
+    <string name="notificationText">Currently monitoring for missed calls</string>
+    <string name="notificationTitle">Wake Me Up</string>
+    <string name="serviceStartedFromUI">serviceStartedFromUI</string>
+    <string name="uiCallThreshold">Call Threshold</string>
+    <string name="uiResetCountButtonText">Reset Count</string>
+    <string name="userPreferencesActiveDescription">When checked, Urgent Caller is running.</string>
+    <string name="userPreferencesActiveKeyName">userPreferencesActive</string>
+    <string name="userPreferencesActiveTitle">On/Off</string>
+    <string name="userPreferencesAlwaysOnDefaultValue">false</string>
+    <string name="userPreferencesAlwaysOnDescription">When checked, the times below are ignored and Urgent Caller will run 24/7.</string>
+    <string name="userPreferencesAlwaysOnKeyName">userPreferencesAlwaysOn</string>
+    <string name="userPreferencesAlwaysOnTitle">Always On</string>
+    <string name="userPreferencesBeginTimeDefaultValue">23:00</string>
+    <string name="userPreferencesBeginTimeDescription">Volume will only be raised during these hours.</string>
+    <string name="userPreferencesBeginTimeKeyName">userPreferencesBeginTime</string>
+    <string name="userPreferencesBeginTimeTitle">Start Time</string>
+    <string name="userPreferencesCallCountThresholdDefaultValue">3</string>
+    <string name="userPreferencesCallCountThresholdDescription">How many missed calls should be allowed before the volume is raised?</string>
+    <string name="userPreferencesCallCountThresholdKeyName">userPreferencesCallCountThreshold</string>
+    <string name="userPreferencesCallCountThresholdTitle">Missed Call Threshold</string>
+    <string name="userPreferencesEndTimeDefaultValue">7:00</string>
+    <string name="userPreferencesEndTimeDescription">Volume will only be raised during these hours.</string>
+    <string name="userPreferencesEndTimeKeyName">userPreferencesEndTime</string>
+    <string name="userPreferencesEndTimeTitle">End Time</string>
+    <string name="userPreferencesFileName">com.avocadosoft.wakemeup_preferences</string>
+    <string name="userPreferencesMissedCallCount">userPreferencesMissedCallCount</string>
+    <!-- From: file:/C:/Users/Samsung/Google%20Drive/Development/UrgentCaller%20Updated/WakeMeUp2/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

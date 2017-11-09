@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/userPreferencesActiveKeyName"
+        android:summary="@string/userPreferencesActiveDescription"
+        android:title="@string/userPreferencesActiveTitle" />
+
+    <com.avocadosoft.wakemeup.IntEditTextPreference
+        android:defaultValue="3"
+        android:inputType="number"
+        android:key="@string/userPreferencesCallCountThresholdKeyName"
+        android:maxLength="3"
+        android:summary="@string/userPreferencesCallCountThresholdDescription"
+        android:title="@string/userPreferencesCallCountThresholdTitle" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/userPreferencesAlwaysOnKeyName"
+        android:summary="@string/userPreferencesAlwaysOnDescription"
+        android:title="@string/userPreferencesAlwaysOnTitle" 
+        />
+
+    <com.avocadosoft.wakemeup.TimePreference
+        android:defaultValue="23:00"
+        android:key="@string/userPreferencesBeginTimeKeyName"
+        android:summary="@string/userPreferencesBeginTimeDescription"
+        android:title="@string/userPreferencesBeginTimeTitle" />
+
+    <com.avocadosoft.wakemeup.TimePreference
+        android:defaultValue="7:00"
+        android:key="@string/userPreferencesEndTimeKeyName"
+        android:summary="@string/userPreferencesEndTimeDescription"
+        android:title="@string/userPreferencesEndTimeTitle" />
+
+</PreferenceScreen>
